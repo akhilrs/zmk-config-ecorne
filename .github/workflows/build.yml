@@ -2,6 +2,7 @@ on:
   push:
     branches:
       - release
+      - main
 jobs:
   build:
     uses: LOWPROKB/zmk/.github/workflows/build-user-config.yml@corne-ish-zen-v2
